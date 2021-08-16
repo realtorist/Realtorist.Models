@@ -15,7 +15,7 @@ namespace Realtorist.Models.Xml
 
         public XmlSchema GetSchema()
         {
-            return null; // no schema
+            return null;
         }
 
         public void ReadXml(XmlReader reader)
