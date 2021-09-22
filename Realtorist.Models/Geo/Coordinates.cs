@@ -1,4 +1,4 @@
-﻿namespace Realtorist.Models.Models
+﻿namespace Realtorist.Models.Geo
 {
     /// <summary>
     /// Describes coordinates

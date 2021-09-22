@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Realtorist.Models.Models
+namespace Realtorist.Models.Geo
 {
     /// <summary>
     /// Describes boundaries of the map
