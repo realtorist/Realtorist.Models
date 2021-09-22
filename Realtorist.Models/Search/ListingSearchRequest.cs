@@ -1,9 +1,7 @@
 ﻿using Realtorist.Models.Enums.LookupTypes;
-using Realtorist.Models.Helpers;
-using Realtorist.Models.Models;
+using Realtorist.Models.Geo;
 using Realtorist.Models.Pagination;
 using Realtorist.Models.Search.Enums;
-using System;
 
 namespace Realtorist.Models.Search
 {

@@ -1,14 +1,11 @@
 ﻿using Realtorist.Models.Attributes;
 using Realtorist.Models.Listings;
-using Realtorist.Models.Listings.Details;
-using Realtorist.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Realtorist.Models.Helpers
 {

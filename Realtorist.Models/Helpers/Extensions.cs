@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Realtorist.Models.Attributes;
-using Realtorist.Models.Models;
+using Realtorist.Models.Geo;
 using Realtorist.Models.Xml;
 using System;
 using System.Collections;

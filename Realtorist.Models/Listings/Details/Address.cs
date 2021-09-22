@@ -1,6 +1,5 @@
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using Realtorist.Models.Models;
+using Realtorist.Models.Geo;
 
 namespace Realtorist.Models.Listings.Details
 {

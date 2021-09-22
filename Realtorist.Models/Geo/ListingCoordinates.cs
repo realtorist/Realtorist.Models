@@ -1,7 +1,7 @@
 ﻿using System;
 using Realtorist.Models.Enums.LookupTypes;
 
-namespace Realtorist.Models.Models
+namespace Realtorist.Models.Geo
 {
     /// <summary>
     /// <see cref="Coordinates"/> with Listing ID

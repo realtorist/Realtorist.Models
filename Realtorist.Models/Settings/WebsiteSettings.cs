@@ -27,7 +27,7 @@ namespace Realtorist.Models.Settings
         [Display(Name = "Website keywords")]
         public string[] WebsiteKeywords { get; set; }
 
-        [Display(Name = "Wensote description")]
+        [Display(Name = "Website description")]
         public string WebsiteDescription { get; set; }
 
         [Display(Name = "URL to your favicon")]

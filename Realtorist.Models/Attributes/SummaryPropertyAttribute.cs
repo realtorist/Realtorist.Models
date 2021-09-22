@@ -1,5 +1,4 @@
-﻿using Realtorist.Models.Models;
-using System;
+﻿using System;
 
 namespace Realtorist.Models.Attributes
 {

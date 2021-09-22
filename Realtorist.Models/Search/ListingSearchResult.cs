@@ -1,11 +1,6 @@
-﻿using Realtorist.Models.Listings;
-using Realtorist.Models.Models;
+﻿using Realtorist.Models.Geo;
+using Realtorist.Models.Listings;
 using Realtorist.Models.Pagination;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Realtorist.Models.Search
 {
