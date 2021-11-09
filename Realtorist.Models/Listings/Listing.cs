@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using Realtorist.Models.Attributes;
 using Realtorist.Models.Enums.LookupTypes;
-using Realtorist.Models.Listings.Enums;
 using Realtorist.Models.Listings.Details;
 
 namespace Realtorist.Models.Listings
@@ -31,10 +30,10 @@ namespace Realtorist.Models.Listings
         public bool Disabled { get; set; }
 
         /// <summary>
-        /// Indicates source of the listing
+        /// Id of the feed
         /// </summary>
-        [Display(Name = "Source")]
-        public ListingSource Source { get; set; }
+        [Display(Name = "Feed ID")]
+        public Guid? FeedId { get; set; }
 
         /// <summary>
         /// Real estate board

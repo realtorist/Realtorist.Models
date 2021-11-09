@@ -24,11 +24,6 @@ namespace Realtorist.Models.Settings
         public const string Password = "Password";
 
         /// <summary>
-        /// Listing sources (RETS) type
-        /// </summary>
-        public const string ListingSources = "ListingSources";
-
-        /// <summary>
         /// SMTP settings type
         /// </summary>
         public const string Smtp = "SMTP";
@@ -69,7 +64,6 @@ namespace Realtorist.Models.Settings
             { Smtp, typeof(SmtpSettings) },
             { GeoCoding, typeof(GeoCodingSettings) },
             { Analytics, typeof(AnalyticsSettings) },
-            { ListingSources, typeof(RetsConfiguration[]) },
             { Testimonials, typeof(Testimonial[]) },
             { Social, typeof(SocialSettings) },
             { Listings, typeof(ListingsSettings) },

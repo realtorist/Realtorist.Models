@@ -2,12 +2,12 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>Realtorist.Models</PackageId>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <Authors>Dmytro Bondarchuk</Authors>
     <Title>Realtorist.Models</Title>
     <Description>Models for the RealEstate framework</Description>
     <RepositoryUrl>https://github.com/realtorist/Realtorist.Models</RepositoryUrl>
-    <ReleaseNotes>Fixed namespace for Geo models</ReleaseNotes>
+    <ReleaseNotes>Decoupling listing feeds</ReleaseNotes>
     <!-- <Company></Company> -->
   </PropertyGroup>
 

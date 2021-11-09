@@ -1,19 +1,22 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using Realtorist.Models.Listings.Enums;
 
 namespace Realtorist.Models.Settings
 {
     /// <summary>
     /// Describes configuration for the DDF connection
     /// </summary>
-    public class RetsConfiguration
+    public class ListingsFeed
     {
         /// <summary>
-        /// Source of the feed
+        /// Id of the feed
         /// </summary>
-        /// <value></value>
-        public ListingSource ListingSource { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+
+        /// <summary>
+        /// Type of the feed
+        /// </summary>
+        public string FeedType { get; set; }
 
         /// <summary>
         /// Base URL to the DDF service
@@ -31,7 +34,7 @@ namespace Realtorist.Models.Settings
         public string Username { get; set; }
 
         /// <summary>
-        /// Password to connect to the feed
+        /// Password to connect to the feed. Encrypted
         /// </summary>
         [Display(Name = "DDF password")]
         [Required]
@@ -42,7 +45,7 @@ namespace Realtorist.Models.Settings
         /// </summary>
         [Display(Name = "Destination ID")]
         [Range(0, int.MaxValue)]
-        public int DestinationId { get; set; }
+        public int? DestinationId { get; set; }
 
         /// <summary>
         /// CRON expression for the update times
