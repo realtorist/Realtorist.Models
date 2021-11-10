@@ -29,6 +29,10 @@ namespace Realtorist.Models.Listings
         [Display(Name = "Is Disabled")]
         public bool Disabled { get; set; }
 
+        [Display(Name = "Feed type")]
+        [MaybeNull]
+        public string? FeedType { get; set; }
+
         /// <summary>
         /// Id of the feed
         /// </summary>
